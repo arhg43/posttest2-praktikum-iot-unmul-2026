@@ -51,3 +51,5 @@ Sistem juga dilengkapi dengan sensor MQ-2 untuk mendeteksi kebocoran gas dan sen
 
 
 # Gambar Board Schematic
+<img width="1198" height="772" alt="image" src="https://github.com/user-attachments/assets/b7bff372-020d-4cb3-a612-6f99fdbe3a4e" />
+
