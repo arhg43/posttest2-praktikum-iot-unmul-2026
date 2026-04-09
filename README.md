@@ -8,20 +8,20 @@ Kelompok 9
 2.	Fathir Januarta (2309106057)
 3.	Muhamad Rayhan AT (23091006050)
 
-#Judul Studi Kasus
+# Judul Studi Kasus
 Smart Home Berbasis ESP32 dengan Monitoring Suhu, Kelembapan (DHT22) dan Deteksi Gas (MQ-2) Berbasis Telegram
 
-#Deskripsi
+# Deskripsi
 Sistem ini merupakan implementasi Smart Home menggunakan ESP32 yang terintegrasi dengan bot Telegram untuk mengontrol perangkat dan memonitor kondisi lingkungan secara real-time.
 Setiap anggota kelompok memiliki akses terbatas terhadap LED masing-masing (LED A, B, dan C), sehingga hanya dapat mengontrol perangkat miliknya sendiri. Selain itu, tersedia satu LED utama (lampu ruang tamu) yang dapat dikontrol oleh seluruh anggota.
 Sistem juga dilengkapi dengan sensor MQ-2 untuk mendeteksi kebocoran gas dan sensor DHT22 untuk membaca suhu serta kelembapan. Jika terdeteksi gas melebihi ambang batas, sistem secara otomatis mengirimkan notifikasi peringatan ke grup Telegram. Seluruh anggota juga dapat mengecek suhu dan kelembapan kapan saja melalui perintah bot. 
 
-#Pembagian Tugas
+# Pembagian Tugas
 - Ari Fullah: Perancangan Sistem, Pemrograman dan Platform IoT
 - Muhamad Rayhan AT: Membuat Board Schematic dan perancangan perangkat
 - Fathir Januarta: Perancangan Sistem, Pemrograman dan Platform IoT
 
-#Komponen yang Digunakan
+# Komponen yang Digunakan
 1.	ESP32 (mikrokontroler utama) 
 2.	Sensor DHT22 (suhu & kelembapan) 
 3.	Sensor MQ-2 (deteksi gas) 
@@ -34,7 +34,7 @@ Sistem juga dilengkapi dengan sensor MQ-2 untuk mendeteksi kebocoran gas dan sen
 6.	Kabel jumper
 7.	Sumber daya kabel type c
 
-#List Komen:
+# List Komen:
 1.	/ledA_on → Menyalakan LED A (khusus anggota A) 
 2.	/ledA_off → Mematikan LED A (khusus anggota A) 
 3.	/ledB_on → Menyalakan LED B (khusus anggota B) 
@@ -50,4 +50,4 @@ Sistem juga dilengkapi dengan sensor MQ-2 untuk mendeteksi kebocoran gas dan sen
 •	Nilai sensor gas (MQ-2)
 
 
-#Gambar Board Schematic
+# Gambar Board Schematic
